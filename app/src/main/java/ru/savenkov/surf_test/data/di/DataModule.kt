@@ -11,7 +11,7 @@ import dagger.hilt.components.SingletonComponent
 import ru.savenkov.surf_test.data.repository.CocktailRepositoryImpl
 import ru.savenkov.surf_test.data.room.AppDatabase
 import ru.savenkov.surf_test.data.room.dao.CocktailDao
-import ru.savenkov.surf_test.domain.CocktailRepository
+import ru.savenkov.surf_test.domain.repository.CocktailRepository
 import javax.inject.Singleton
 
 @Module

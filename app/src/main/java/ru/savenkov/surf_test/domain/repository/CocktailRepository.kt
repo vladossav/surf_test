@@ -1,4 +1,4 @@
-package ru.savenkov.surf_test.domain
+package ru.savenkov.surf_test.domain.repository
 
 import ru.savenkov.surf_test.domain.entities.Cocktail
 import ru.savenkov.surf_test.domain.entities.Ingredient

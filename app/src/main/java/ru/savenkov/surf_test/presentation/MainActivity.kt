@@ -1,4 +1,4 @@
-package ru.savenkov.surf_test
+package ru.savenkov.surf_test.presentation
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar

@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Surf_test"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.MainActivity"
             android:exported="true"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.Surf_test">

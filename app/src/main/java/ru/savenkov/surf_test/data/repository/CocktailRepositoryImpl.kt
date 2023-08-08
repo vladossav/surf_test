@@ -2,7 +2,7 @@ package ru.savenkov.surf_test.data.repository
 
 import ru.savenkov.surf_test.data.converter.Converter
 import ru.savenkov.surf_test.data.room.dao.CocktailDao
-import ru.savenkov.surf_test.domain.CocktailRepository
+import ru.savenkov.surf_test.domain.repository.CocktailRepository
 import ru.savenkov.surf_test.domain.entities.Cocktail
 import ru.savenkov.surf_test.domain.entities.Ingredient
 import javax.inject.Inject

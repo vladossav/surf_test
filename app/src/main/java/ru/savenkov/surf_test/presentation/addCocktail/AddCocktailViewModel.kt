@@ -7,7 +7,7 @@ import com.google.android.material.textfield.TextInputEditText
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import ru.savenkov.surf_test.domain.CocktailRepository
+import ru.savenkov.surf_test.domain.repository.CocktailRepository
 import ru.savenkov.surf_test.domain.entities.Cocktail
 import ru.savenkov.surf_test.util.showSnackbar
 import javax.inject.Inject
