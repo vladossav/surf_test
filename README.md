@@ -13,5 +13,5 @@
 </div>
 
 ### Технологический стек
-ViewModel, Room, Coroutines, Jetpack Navigation, Dagger-Hilt  
+Single Activity, Fragments, ViewModel, Room, Coroutines, Jetpack Navigation, Dagger-Hilt  
 Архитектура: MVVM с перспективой в Clean Architecture
