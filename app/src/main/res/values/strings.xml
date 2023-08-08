@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">surf_test</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="my_cocktails_main_label">My cocktails</string>
+    <string name="my_cocktails_add_cocktail_label">Add your first\ncocktail here</string>
+
+    <string name="add_button">Add</string>
+    <string name="save_button">Save</string>
+    <string name="edit_button">Edit</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="add_ingredient_label">Add ingredient</string>
+    <string name="ingredient_label">Ingredient</string>
+    <string name="recipe_label">Recipe</string>
+    <string name="title_label">Title</string>
+    <string name="description_label">Description</string>
+    <string name="optional_field_helper">Optional field</string>
+
+</resources>

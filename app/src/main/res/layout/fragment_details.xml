@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.detailCocktail.DetailsFragment">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_marginTop="33dp"
+        android:layout_width="match_parent"
+        android:layout_height="329dp"
+        android:src="@drawable/photo_place"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/up_of_form_image"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="wrap_content"
+        android:src="@drawable/top_round_rectangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/image" />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/my_cocktails_main_label"
+        android:textSize="38sp"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/up_of_form_image" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="awdawdddawdawawd"
+        android:textSize="19sp"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <LinearLayout
+        android:id="@+id/ingredient_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="32dp"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/description" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/save_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/blue"
+        android:elegantTextHeight="true"
+        android:text="@string/edit_button"
+        android:textAllCaps="false"
+        android:textSize="31sp"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
